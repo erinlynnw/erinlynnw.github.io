@@ -1,0 +1,16 @@
+body {
+    background: yellow;
+}
+
+
+h1 {
+	margin: 0;
+	font-family: copperplate;
+	font-style: bold;
+	font-weight: 100;
+	font-size: 70px;
+	line-height: 1;
+	text-transform: uppercase;
+	color: blue;
+	color: rgba(0, 0, 255, .5)
+}
