@@ -1,0 +1,27 @@
+.nav {
+	padding: 0; /* all sides 0 */
+	list-style: none;
+	
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 1em;
+	background: pink;
+}
+
+.nav > li > a {
+
+}
+
+.bar {
+
+}
+
+#primary-nav {
+
+}
