@@ -4,6 +4,7 @@
 		<title>
 			Erin's Design for WWW website
 		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link 
 href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/
 normalize.css" rel="stylesheet">
@@ -12,15 +13,16 @@ normalize.css" rel="stylesheet">
 	</head>
 	
 	<body>
-	
+	<div class="masthead">
+			<div class="container">
 		<h1 id="welcome">ERIN WINEBRENNER</h1>
 		
 		<ul class="nav bar fit" id="primary-nav">
 			<li>
-				<a href="#welcome">Link 1</a>
+				<a href="index.html">blog posts</a>
 			</li>
 			<li>
-				<a href="#welcome">Link 2</a>
+				<a href="project 1.html">project 1</a>
 			</li>
 			<li>
 				<a href="#welcome">Link 3</a>
@@ -32,9 +34,25 @@ normalize.css" rel="stylesheet">
 				<a href="#welcome">Link 5</a>
 			</li>
 		</ul>
-		<h3><a href="blog1.html">blog post 1</a></h3>
-		<h4><a href="blog2.html">blog post 2</a></h4>
-		<h4><a href="blog3.html">blog post 3</a></h4>
-		
+
+		</div> <!-- closes .container -->
+	</div> <!-- closes .masthead -->
+	<main class="page" role="main">
+		<div class="container clear">
+			<div class="main-content">
+				<img src="images/white.png" alt="">
+			</div>
+			<div class="sub-content">
+				<h5>sidebar</h5>
+				<h3><a href="blog1.html">blog post 1</a></h3>
+				<h4><a href="blog2.html">blog post 2</a></h4>
+				<h4><a href="blog3.html">blog post 3</a></h4>
+				<h5><a href="blog4.html">blog post 4</a></h5>
+			</div>		
+			<div class="third-content">
+				<h5>another sidebar</h5>
+			</div>
+		</div>
+	</main>
 	</body>
 </html>
